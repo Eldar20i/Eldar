@@ -1,0 +1,71 @@
+/*шрифт*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/*уберает круглые точки в начале каждого текста*/
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+/*немного ставит всесь контейнер на своё место*/
+.container {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-top: 2rem;
+}
+
+/*выравнивание по горизонтали*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+}
+
+/*выравнивание текста*/
+.ulflex {
+  display: flex;
+  gap: 2vw;
+}
+
+
+/*текстик для купить вто дешевле НА 60%*/
+.text1 {
+    position: absolute;
+    width: 410px;
+  
+    left: 321px;
+    top: 280px;
+    font-weight: 1000;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.text2 {
+    position: absolute;
+    left: 321px;
+    top: 370px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+/* машинка */
+.car {
+    position: absolute;
+    width: 816px;
+    height: 417px;
+    left: 750px;
+    top: 226px;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
